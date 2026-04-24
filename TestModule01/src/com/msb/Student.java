@@ -8,14 +8,24 @@ public class Student {
     private String name;
     private int age;
     private String gender;
+    private String stuid;
+
+    public String getStuid() {
+        return stuid;
+    }
+
+    public void setStuid(String stuid) {
+        this.stuid = stuid;
+    }
 
     public Student() {
     }
 
-    public Student(String name, int age, String gender) {
+    public Student(String name, int age, String gender, String stuid) {
         this.name = name;
         this.age = age;
         this.gender = gender;
+        this.stuid = stuid;
     }
 
     public String getName() {
